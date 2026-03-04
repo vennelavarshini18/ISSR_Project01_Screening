@@ -1,0 +1,9 @@
+datasets
+librosa
+soundfile
+noisereduce
+numpy
+matplotlib
+scipy
+jupyter 
+ipython
