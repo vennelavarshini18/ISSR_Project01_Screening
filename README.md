@@ -1,8 +1,7 @@
-# Team Communication Processing — GSoC 2026 Screening
-**HumanAI / TRIP Lab, University of Alabama**  
+# HumanAI, ISSR Project 01, University of Alabama
+## Team communication processing and analysis in human-factors simulated environment, GSoC 2026 Screening Test 
 **Name:** Vennela Varshini Anasoori
 
----
 
 ## Overview
 
@@ -11,9 +10,8 @@ This submission covers the two main parts of the screening task:
 1. Selecting and analyzing a suitable public dataset for team communication audio
 2. Implementing and evaluating audio enhancement techniques on a sample recording
 
----
 
-## Notebook 1 — Dataset Selection
+## Notebook 1: Dataset Selection
 **File:** `Dataset_selection_N1.ipynb`
 
 ### Goal
@@ -37,13 +35,12 @@ Before selecting AMI, I evaluated four candidate datasets (AMI, LibriSpeech, NOI
 - MFCC features (13 coefficients) → `sample_mfcc.png`
 - Basic audio stats: RMS energy, zero crossing rate, spectral centroid, estimated SNR
 
----
 
-## Notebook 2 — Audio Enhancement
+## Notebook 2: Audio Enhancement
 **File:** `Audio_enhancement_N2.ipynb`
 
 ### Goal
-Apply audio enhancement methods to improve speech clarity and evaluate how much the audio improves — including whether it becomes more suitable for transcription.
+Apply audio enhancement methods to improve speech clarity and evaluate how much the audio improves, including whether it becomes more suitable for transcription.
 
 ### Methods Used
 
@@ -72,7 +69,6 @@ STOI (Short-Time Objective Intelligibility) was included specifically because th
 - Waveform comparison → `waveform_comparison.png`
 - Spectrogram comparison → `spectrogram_comparison.png`
 
----
 
 ## Files
 
@@ -91,7 +87,6 @@ STOI (Short-Time Objective Intelligibility) was included specifically because th
 | `waveform_comparison.png` | Waveform comparison across methods |
 | `spectrogram_comparison.png` | Spectrogram comparison across methods |
 
----
 
 ## Setup
 
@@ -100,7 +95,6 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
----
 
 ## Run Order
 
