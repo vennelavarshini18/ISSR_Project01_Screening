@@ -7,3 +7,4 @@ matplotlib
 scipy
 jupyter 
 ipython
+pystoi
