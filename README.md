@@ -1,8 +1,9 @@
+# HumanAI, ISSR Project 01, University of Alabama
+## Team communication processing and analysis in human-factors simulated environment, GSoC 2026 Screening Test 
 # Team Communication Processing — GSoC 2026 Screening
 **HumanAI / TRIP Lab, University of Alabama**
 **Name:** Vennela Varshini Anasoori
 
----
 
 ## Overview
 
@@ -11,9 +12,8 @@ This submission covers the two main parts of the screening task:
 1. Selecting and analyzing a suitable public dataset for team communication audio
 2. Implementing and evaluating audio enhancement techniques on a sample recording
 
----
 
-## Notebook 1 — Dataset Selection
+## Notebook 1: Dataset Selection
 **File:** `Dataset_selection_N1.ipynb`
 
 ### Goal
@@ -39,12 +39,12 @@ I specifically used the **IHM (Individual Headset Microphone)** channel, where e
 - MFCC features (13 coefficients) → `sample_mfcc.png`
 - Basic audio stats: RMS energy, zero crossing rate, spectral centroid, estimated SNR
 
----
 
-## Notebook 2 — Audio Enhancement
+## Notebook 2: Audio Enhancement
 **File:** `Audio_enhancement_N2.ipynb`
 
 ### Goal
+Apply audio enhancement methods to improve speech clarity and evaluate how much the audio improves, including whether it becomes more suitable for transcription.
 Apply audio enhancement methods to improve speech clarity and evaluate how much each one helps, including whether the audio becomes more suitable for transcription.
 
 ### Methods
@@ -76,7 +76,6 @@ STOI was included because the task requires enhancement to help transcription, a
 - The Wiener filter achieved the best STOI (0.638), meaning it preserved speech content better than the other methods
 - The combined pipeline scored lowest on both STOI and DNSMOS despite being the most complex, showing that more processing steps do not always help
 
----
 
 ## Files
 
@@ -96,14 +95,17 @@ STOI was included because the task requires enhancement to help transcription, a
 | `waveform_comparison.png` | Waveform comparison across all methods |
 | `spectrogram_comparison.png` | Spectrogram comparison across all methods |
 
----
 
 ## Setup
 ```bash
 pip install -r requirements.txt
 ```
 
+
 ## Run Order
+
+1. `Dataset_selection_N1.ipynb` — dataset selection and exploratory analysis
+2. `Audio_enhancement_N2.ipynb` — enhancement and evaluation
 
 1. `Dataset_selection_N1.ipynb`
 2. `Audio_enhancement_N2.ipynb`
