@@ -8,3 +8,8 @@ scipy
 jupyter 
 ipython
 pystoi
+requests
+onnxruntime
+torch
+noisereduce
+torchmetrics
